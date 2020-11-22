@@ -6,8 +6,6 @@ from sys import argv
 url = 'http://0.0.0.0:5000/api/'
 
 test = argv[1:]
-print(argv)
-print(test)
 
 headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
 
